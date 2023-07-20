@@ -2,6 +2,7 @@
 # Не учитывать знаки препинания и регистр символов.
 # За основу возьмите любую статью из википедии или из документации к языку.
 
+import re
 from collections import Counter
 
 text = str('Python - (в русском языке встречаются названия пито́н или па́йтон) — высокоуровневый язык программирования \
@@ -52,4 +53,13 @@ text = str('Python - (в русском языке встречаются наз
             программирования с показателем 15,74 %. «Языком года» по версии TIOBE Python объявлялся в 2007, 2010, \
             2018, 2020 и 2021 годах.')
 
-print(Counter.elements(text))
+clean_text = re.sub(r'[^\w\s]', '', text.lower())
+words = clean_text.split()
+words_count = Counter(words)
+common_words = words_count.most_common(10)
+
+print(f'Всего слов в тексте - {len(words)}.')
+
+print('ТОП-10 слов:')
+for words, count in common_words:
+    print(f'{words} - {count}')
