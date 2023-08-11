@@ -1,0 +1,77 @@
+{
+     "D:\\My education\\Python Immersion\\Seminar_8": {
+          "name.csv": {
+               "size": 55,
+               "type": "file"
+          },
+          "names.csv": {
+               "size": 0,
+               "type": "file"
+          },
+          "names.json": {
+               "size": 542,
+               "type": "file"
+          },
+          "names.pickle": {
+               "size": 0,
+               "type": "file"
+          },
+          "output.csv": {
+               "size": 0,
+               "type": "file"
+          },
+          "output.txt": {
+               "size": 234,
+               "type": "file"
+          },
+          "output.txt.csv": {
+               "size": 0,
+               "type": "file"
+          },
+          "output.txt.json": {
+               "size": 461,
+               "type": "file"
+          },
+          "output.txt.pickle": {
+               "size": 279,
+               "type": "file"
+          },
+          "task_1.py": {
+               "size": 1732,
+               "type": "file"
+          },
+          "task_2.py": {
+               "size": 1875,
+               "type": "file"
+          },
+          "task_3.py": {
+               "size": 673,
+               "type": "file"
+          },
+          "task_4.py": {
+               "size": 1302,
+               "type": "file"
+          },
+          "task_5.py": {
+               "size": 833,
+               "type": "file"
+          },
+          "task_6.py": {
+               "size": 918,
+               "type": "file"
+          },
+          "task_7.py": {
+               "size": 205,
+               "type": "file"
+          },
+          "total_size": 9291,
+          "user_data.json": {
+               "size": 107,
+               "type": "file"
+          },
+          "user_data.pickle": {
+               "size": 75,
+               "type": "file"
+          }
+     }
+}
